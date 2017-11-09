@@ -1,3 +1,45 @@
 html{
   font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+header{
+  background-color: white;
+  height: 3.56rem;
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+}
+
+.box div img{
+  width: 4rem;
+}
+
+#colmar{
+  font-size: 2rem;
+  color: #555;
+  font-weight: bold;
+}
+
+#academy{
+  font-size: 2rem;
+  color: grey;
+}
+
+ul{
+  margin: 1.33rem;
+}
+
+ul li{
+  display: inline;
+  margin-left: 0.89rem;
+}
+
+header .menu{
+  display: flex;
+  justify-content: flex-end;
 }
