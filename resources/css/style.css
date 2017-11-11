@@ -1,6 +1,7 @@
 html{
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
+  color: #555;
 }
 
 header{
@@ -13,10 +14,18 @@ header{
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
+  margin: auto 1.33rem;
+}
+
+.box #logo{
+  margin-right: auto;
+  display: flex;
+  align-items: center;
 }
 
 .box div img{
   width: 4rem;
+  height: 4rem;
 }
 
 #colmar{
@@ -39,7 +48,19 @@ ul li{
   margin-left: 0.89rem;
 }
 
+ul li a{
+  text-decoration: none;
+  color: #555;
+  font-size: 1.25rem;
+}
+
 header .menu{
   display: flex;
   justify-content: flex-end;
+}
+
+/*Main banner*/
+.flex-box{
+  display: flex;
+  background-color: lightgray;
 }
