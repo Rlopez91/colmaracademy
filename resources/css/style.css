@@ -6,7 +6,7 @@ html{
 
 header{
   background-color: white;
-  height: 3.56rem;
+  height: 4rem;
 }
 
 .box{
@@ -21,6 +21,7 @@ header{
   margin-right: auto;
   display: flex;
   align-items: center;
+  margin-left: -0.7rem;
 }
 
 .box div img{
@@ -37,10 +38,6 @@ header{
 #academy{
   font-size: 2rem;
   color: grey;
-}
-
-ul{
-  margin: 1.33rem;
 }
 
 ul li{
@@ -63,4 +60,53 @@ header .menu{
 .flex-box{
   display: flex;
   background-color: lightgray;
+}
+
+.banner{
+  margin: 1.77rem 1.33rem;
+  width: 60%;
+}
+
+.banner img{
+  max-width: 100%;
+}
+
+.banner-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 1.33rem;
+}
+
+.title{
+  margin: auto;
+  font-size: 4.1rem;
+  font-weight: bold;
+}
+
+.title2{
+  margin: auto;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#button{
+  display: inline-block;
+  background-color: #555;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.button{
+  background-color: #555;
+  color: white;
+  padding: 0.44rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+  margin: auto;
+  cursor: pointer;
+  width: -webkit-fill-available;
 }
