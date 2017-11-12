@@ -200,18 +200,21 @@ header .menu{
 }
 
 .title3{
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 1.78rem;
+  margin: 1.78rem;
+  text-align: center;
 }
 
 .career-boxes{
   display: flex;
+  justify-content: center;
 }
 
 .career{
   background-color: white;
   margin: 0 0.89rem 1.78rem 0;
+  height: 19rem;
 }
 
 .career-img{
@@ -230,9 +233,48 @@ header .menu{
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.career-info h4{
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .carrer-info p{
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 2rem;
+}
+
+.career-boxes .column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+}
+
+/*Thesis section*/
+.video-box{
+  width: 60%;
+  margin-right: 1.33rem;
+}
+
+.video-box video{
+  width: 100%;
+  margin-bottom: 1.44rem;
+}
+
+.video-box h2{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.33rem;
+}
+
+.video-box p{
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+#fisma{
+  background-color: lightgray;
 }
