@@ -145,11 +145,13 @@ header .menu{
 .info-boxes{
   display: flex;
   flex-direction: column;
+  width: 42%;
 }
 
 .box2{
   display: flex;
   margin-bottom: 1.78rem;
+  align-items: center;
 }
 
 .box2 img{
