@@ -56,6 +56,10 @@ header .menu{
   justify-content: flex-end;
 }
 
+.mobile-menu{
+  display: none;
+}
+
 /*Main banner*/
 .flex-box{
   display: flex;
@@ -119,8 +123,66 @@ header .menu{
 
 .image-box{
   width: 60%;
+  margin-right: 1.33rem;
 }
 
 .image-box img{
   width: 100%;
+  margin-bottom: 1.44rem;
+}
+
+.image-box h2{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.33rem;
+}
+
+.image-box p{
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.info-boxes{
+  display: flex;
+  flex-direction: column;
+}
+
+.box2{
+  display: flex;
+  margin-bottom: 1.78rem;
+}
+
+.box2 img{
+  width: 35%;
+  height: auto;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto 3.02rem;
+  max-width: 65%;
+}
+
+.info h3{
+  font-size: 1.7rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+.info p{
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.info a{
+  font-size: 1.2rem;
+  color: #1e90ff;
+  text-decoration: none;
+  line-height: 2rem;
+}
+
+#lecture{
+  background-color: lightgray;
 }
