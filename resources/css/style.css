@@ -118,7 +118,7 @@ header .menu{
 /*Secondary info section*/
 .flex-box2{
   display: flex;
-  margin: 1.44rem 1.33rem;
+  padding: 1.44rem 0 1.44rem 1.33rem;
 }
 
 .image-box{
@@ -185,4 +185,52 @@ header .menu{
 
 #lecture{
   background-color: lightgray;
+}
+
+
+/*START LEARNING SECTION*/
+.start-learning{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem 4rem;
+  background-color: lightgray;
+}
+
+.title3{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.78rem;
+}
+
+.career-boxes{
+  display: flex;
+}
+
+.career{
+  background-color: white;
+  margin: 0 0.89rem 1.78rem 0;
+}
+
+.career-img{
+  height: auto;
+}
+
+.career-img img{
+  width: 100%;
+}
+
+.career-info{
+  padding: 0.89rem;
+}
+
+.career-info h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+.carrer-info p{
+  font-size: 1.2rem;
+  line-height: 2rem;
 }
