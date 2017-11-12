@@ -60,6 +60,7 @@ header .menu{
 .flex-box{
   display: flex;
   background-color: lightgray;
+  align-items: center;
 }
 
 .banner{
@@ -73,19 +74,19 @@ header .menu{
 
 .banner-text{
   display: flex;
-  justify-content: center;
   flex-direction: column;
   padding-right: 1.33rem;
+  width: 40%;
 }
 
 .title{
-  margin: auto;
-  font-size: 4.1rem;
+  margin-bottom: 2rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 
 .title2{
-  margin: auto;
+  margin-bottom: 2rem;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -104,9 +105,22 @@ header .menu{
   padding: 0.44rem;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 2rem;
   margin: auto;
   cursor: pointer;
-  width: -webkit-fill-available;
+}
+
+/*Secondary info section*/
+.flex-box2{
+  display: flex;
+  margin: 1.44rem 1.33rem;
+}
+
+.image-box{
+  width: 60%;
+}
+
+.image-box img{
+  width: 100%;
 }
