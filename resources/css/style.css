@@ -327,6 +327,18 @@ a:hover{
   box-shadow: 2px 2px 1px 0 #000000;
 }
 
+
+.mobile-menu img:hover{
+  background-color: #1d6baf;
+  transition: color 400ms linear;
+}
+
+.careers-mobile a:hover{
+  color: #1d6baf;
+  transition: color 700ms linear;
+}
+
+
 /*media queries*/
 @media only screen and (max-width: 1024px){
   .box{
@@ -342,6 +354,19 @@ a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .mobile-menu ul li{
+    border: 0.1rem solid;
+    border-radius: 0.5rem;
+  }
+
+  .mobile-menu ul li a{
+    display: flex;
+  }
+
+  .mobile-menu ul li a img{
+    border-radius: 0.3rem;
   }
 
   .flex-box{
@@ -465,6 +490,19 @@ a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .mobile-menu ul li{
+    border: 0.1rem solid;
+    border-radius: 0.5rem;
+  }
+
+  .mobile-menu ul li a{
+    display: flex;
+  }
+
+  .mobile-menu ul li a img{
+    border-radius: 0.3rem;
   }
 
   .flex-box{
