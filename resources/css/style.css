@@ -312,6 +312,22 @@ header .menu{
   font-size: 0.8rem;
 }
 
+/*trasitions*/
+a:hover{
+  color: #1d6baf;
+  transition: color 700ms linear;
+}
+
+#button a:hover{
+  background-color: gray;
+  transition: color 700ms linear;
+}
+
+#button a:active{
+  box-shadow: 2px 2px 1px 0 #000000;
+}
+
+/*media queries*/
 @media only screen and (max-width: 1024px){
   .box{
     display: none;
