@@ -102,6 +102,7 @@ header .menu{
   margin: auto;
   width: 100%;
   text-align: center;
+  border-radius: 0.5rem;
 }
 
 .button{
@@ -114,6 +115,7 @@ header .menu{
   font-size: 2rem;
   margin: auto;
   cursor: pointer;
+  border-radius: 0.5rem;
 }
 
 /*Secondary info section*/
@@ -220,6 +222,12 @@ header .menu{
   background-color: white;
   margin: 0 0.89rem 1.78rem 0;
   height: 19rem;
+  border-radius: 0.5rem;
+}
+
+.column a{
+  text-decoration: none;
+  color: #555;
 }
 
 .career-img{
@@ -228,6 +236,7 @@ header .menu{
 
 .career-img img{
   width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .career-info{
@@ -303,7 +312,7 @@ header .menu{
   font-size: 0.8rem;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1024px){
   .box{
     display: none;
   }
